@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.cascade.fonttextview.MainActivity">
+
+    <com.cascade.fonttextview.FontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OpenSans"
+        android:textSize="70sp"
+        app:fontPathInAssets="font/OpenSans.ttf" />
+
+    <com.cascade.fonttextview.FontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rajdhani"
+        android:textSize="70sp"
+        app:fontPathInAssets="font/Rajdhani.ttf" />
+
+    <com.cascade.fonttextview.FontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Julee"
+        android:textSize="70sp"
+        app:fontPathInAssets="font/Julee.ttf" />
+</LinearLayout>
